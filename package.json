@@ -1,0 +1,18 @@
+{
+    "name": "chrome-test",
+    "version": "0.0.5",
+    "description": "Chrome API sucks.",
+    "keywords": [ "" ],
+    "author": "Chris Perivolaropoulos",
+    "contributors": [],
+    "dependencies": {
+	"selenium-webdriver": "*",
+	"mocha": "*",
+	"chai": "*"
+    },
+    "scripts": {
+	"test": "mocha test/selenium-test.js",
+	"debug": "mocha debug test/selenium-test.js",
+	"chrome": "chromium --load-extension=extension chrome://extensions"
+    }
+}
