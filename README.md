@@ -1,6 +1,6 @@
 # Chrome Examples
 
-A set of examples on some chorme API calls and good ways of testing
+A set of examples on some chrome API calls and good ways of testing
 them with selenium.
 
 ## Usage
